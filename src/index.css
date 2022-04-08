@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h4,
+h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+nav .nav-content {
+  background-color: #81c784;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+nav ul a {
+  font-size: 1.3rem;
+}
+
+.page-footer {
+  padding-top: 0px;
+  background-color: #c8e6c9;
+
+}
+
+.container {
+  color: #fff;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+  }
+}
+
+
+.grey-text.text-lighten-4 {
+  color: #fff !important;
+}
+
+.conteiner_main {
+  padding: 25px 3vw;
+  min-height: calc(100vh - 64px - 50px);
+}
+
+.conteiner_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  gap: 25px;
+}
+
+.notFound {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.notFound a {
+  font-size: 1.3rem;
+}
+.list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(20vw, 1fr));
+  gap:2rem;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  }
+
+  .card-content{
+    flex-grow: 1;
+  }
+  .card-action .btn{
+    font-size: 0.7rem !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    padding: 0px 5px !important;
+  }
+
+  .card .card-title {
+    font-size: 1.2rem;
+  }
