@@ -1,15 +1,17 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink/* , useNavigate */ } from 'react-router-dom';
 
 export const FanCatecory = (props) => {
-  const { idCategory, strCategory, strCategoryThumb, strCategoryDescription
+  const { /* idCategory, */strCategory, strCategoryThumb, strCategoryDescription
   } = props;
+
+
   return (
     <div className="card" >
+     
       <div className="card-image">
         <img src={strCategoryThumb} alt={strCategory} />
-        
-      </div>
+     </div>
       <div className="card-content">
         <span className="card-title">{strCategory}</span>
         <p> {strCategoryDescription.slice(0,60)}... </p>

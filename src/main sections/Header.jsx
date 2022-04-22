@@ -10,7 +10,7 @@ export const FanHedar = () => {
         <a href="https://iarilo.github.io/React_showcase/" className="nav-logo">Блюда</a>
 
         <ul id="nav-mobile" className="nav-list">
-          <li><NavLink to="/" style={styleLink} >главная</NavLink></li>
+          <li><NavLink to="/" style={styleLink} >магазин</NavLink></li>
           <li><NavLink to="/about" style={styleLink} >о нас</NavLink></li>
 
           <li><NavLink style={styleLink}   to="https://iarilo.github.io/React_showcase/ ">Репозиторий</NavLink></li> 

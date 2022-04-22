@@ -36,7 +36,6 @@ nav ul a {
 .page-footer {
   padding-top: 0px;
   background-color: #c8e6c9;
-
 }
 
 .container {
@@ -45,13 +44,12 @@ nav ul a {
 
 @media only screen and (min-width: 993px) {
   .container {
-        width: 100% !important;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 20px;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
   }
 }
-
 
 .grey-text.text-lighten-4 {
   color: #fff !important;
@@ -78,26 +76,121 @@ nav ul a {
 .notFound a {
   font-size: 1.3rem;
 }
-.list{
+.list {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(20vw, 1fr));
-  gap:2rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
 }
-.card{
+.card {
   display: flex;
   flex-direction: column;
-  }
+}
 
-  .card-content{
-    flex-grow: 1;
-  }
-  .card-action .btn{
-    font-size: 0.7rem !important;
-    height: 30px !important;
-    line-height: 30px !important;
-    padding: 0px 5px !important;
-  }
+.card-content {
+  flex-grow: 1;
+}
+.card-action .btn {
+  font-size: 0.7rem !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  padding: 0px 5px !important;
+}
 
-  .card .card-title {
-    font-size: 1.2rem;
-  }
+.card .card-title {
+  font-size: 1.2rem;
+}
+.btn-list {
+  display: block;
+  margin: 0 0 0 auto;
+}
+img,
+iframe {
+  max-width: 100%;
+}
+.recipe img {
+  width: 40vw;
+}
+.recipe {
+  padding: 10vw;
+}
+
+iframe {
+  width: 600px;
+  min-height: 350px;
+  border: 2px solid #000000;
+}
+.btn-recipe {
+  margin-top: 3vw;
+}
+
+.centered tr {
+  border-bottom: 2px solid #2962ff;
+}
+
+.centered {
+  width: 50%;
+  margin: auto;
+}
+
+.seaechContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.seaechContainer #searchId {
+  width: 90%;
+  border-bottom: 1px solid #26a69a;
+}
+.seaechContainer .btn {
+  width: 92%;
+}
+
+.about-list,
+a {
+  font-size: 18px;
+  color: burlywood;
+}
+
+.container_list {
+  width: 100%;
+}
+
+.input-check {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 5px;
+}
+
+.input-check input {
+  margin: 0;
+}
+
+.container-check {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 35px;
+  margin-top: 8px;
+  margin-right: 20px;
+  padding: 0.35em 4.75em 0.75em 0.625em;
+  border-color: #0000001a;
+}
+
+.container_filtr_categorii{
+  width: 100%;
+  margin-top: 35px;
+}
+
+/* .container-check ul {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+} */
+.canteiner_home {
+  display: flex;
+}
+/* .input-check .filled-in {
+  opacity: 1;
+  position: unset;
+  margin-right: 10px;
+} */
